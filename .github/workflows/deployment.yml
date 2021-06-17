@@ -1,0 +1,18 @@
+name: Deployment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  development:
+    name: Deploy Development
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build
+        run: yarn && yarn run build:dev

@@ -1,0 +1,8 @@
+{
+  "../.yarn/$$virtual/next-virtual-420b42b7af/0/cache/next-npm-11.0.0-21d89d4265-0d6dea2ce9.zip/node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
+    "id": "./.yarn/$$virtual/next-virtual-420b42b7af/0/cache/next-npm-11.0.0-21d89d4265-0d6dea2ce9.zip/node_modules/next/dist/client/dev/noop.js",
+    "files": [
+      "static/chunks/_yarn_virtual_next-virtual-420b42b7af_0_cache_next-npm-11_0_0-21d89d4265-0d6dea2ce9_zip_node_-ac50b9.js"
+    ]
+  }
+}
