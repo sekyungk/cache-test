@@ -1,4 +1,4 @@
-name: Deployment
+name: Deployment Cache
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
       - name: Build
-        run: yarn && yarn run build:dev
+        run: yarn && yarn run build
